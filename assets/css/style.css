@@ -1,0 +1,206 @@
+/* Body background color */
+body{
+    background-color: #bd7af1;
+}
+/* Styling for the "Habit" heading */
+#habit-heading {
+    color: #ffa200; /* Orange color */
+}
+
+/* Styling for the "App" heading */
+#app-heading {
+    color: black; /* Black color */
+}
+
+/* Heading styling */
+.heading {
+    color: #ffa200; /* Orange color */
+    font-size: 2rem; /* Font size */
+    font-weight: bolder; /* Bold font weight */
+}
+
+/* Styling for the main box (modal body) */
+.modal-body {
+    background-image: linear-gradient(to right, rgb(255, 166, 0) 50%, black 50%); /* Orange and black gradient */
+}
+
+/* Styling for form input fields */
+.form-control {
+    background-color: #222; /* Dark background color */
+    color: whitesmoke; /* Text color */
+}
+
+.input-here {
+    border: 0px;
+    border-radius: 0%; /* Rounded edges */
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+/* Rounded input field */
+.rounded-input {
+    border-radius: 10px; /* Adjust the value to control the level of rounding */
+}
+
+/* Center the button within the modal footer */
+.add-habit-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Rounded modal content */
+.modal-content {
+    border-radius: 10px; /* Adjust the value to control the level of rounding */
+}
+
+/* Alternate background color for the specific div */
+.shadow-sm.rounded.mt-3.p-4.bg-white {
+    background: linear-gradient(to right, rgb(255, 166, 0) 50%, black 50%); /* Orange and black gradient */
+}
+
+/* Button background color */
+#button {
+    background-color: rgb(255, 166, 0); /* Orange color */
+}
+
+/* Icon color on hover */
+.icon {
+    color: red; /* Red color */
+}
+
+/* Icon color on hover */
+.icon:hover {
+    color: maroon; /* Maroon color on hover */
+}
+
+/* Styling for abbr elements */
+abbr {
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+abbr:hover {
+    cursor: pointer;
+}
+
+abbr:hover::after {
+    position: absolute;
+    left: 100%;
+    display: block;
+    padding: 10px;
+    background: #FFDF00; /* Yellow background color */
+    color: black; /* Text color */
+    content: attr(title);
+    width: 150px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Styling for card headers */
+.card-header {
+    background-color: rgb(233, 199, 155); /* Light brown background color */
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 10px; /* Rounded edges */
+}
+
+/* Bold font weight */
+.f-bold {
+    font-weight: bold;
+}
+
+/* Styling for the box */
+.box {
+    padding-bottom: 500px;
+}
+
+/* Styling for the progress icon */
+#progress {
+    bottom: 22px;
+    right: 22px;
+    border-radius: 50%;
+    margin: 13px 0 0 0;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+/* Styling for creator and progress */
+#creator, #progress {
+    border: 0;
+    border-radius: 0;
+    background: #728986; /* Green background color */
+    outline: none;
+    color: #fff; /* Text color */
+    transition: background .15s ease;
+}
+
+/* Styling for dot element */
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: #bbb; /* Light gray background color */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Styling for the App element */
+.App {
+    text-align: center;
+    color: red; /* Red color */
+}
+
+/* Styling for card headers */
+.card-head2 {
+    background-color: #e1e1e1; /* Light gray background color */
+    color: #222; /* Text color */
+    font-weight: 700;
+    padding: 5px 15px;
+    font-size: 13px;
+}
+
+/* Styling for circular progress */
+.circular-progress {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-left: 13px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    background: conic-gradient(#E91E63 360deg, rgb(202, 220, 255) 360deg); /* Circular gradient background */
+}
+
+.circular-progress::before:hover {
+    background-color: conic-gradient(rgb(130, 130, 243) 360deg); /* Circular gradient background on hover */
+}
+
+.circular-progress:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #ffffff; /* White background color */
+    border-radius: 50%;
+}
+
+/* Styling for value container */
+.value-container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #9a5281; /* Text color */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for habit days */
+.habit-days {
+    display: flex;
+    flex-direction: row;
+}
